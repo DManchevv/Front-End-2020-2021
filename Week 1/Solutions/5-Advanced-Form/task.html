@@ -1,0 +1,49 @@
+<!Doctype HTML>
+<HTML>
+	<HEAD>
+		<TITLE> Form </TITLE>
+		<META charset="UTF-8">
+	</HEAD>
+	<BODY>
+		<form action="#" method="post">
+			<fieldset>
+				<legend> User Information </legend>
+				<label for="username">Username:</label>
+				<input type="text" name="username" id="password" placeholder="Username">
+				<br>
+				<label for="password">Password:</label>
+				<input type="text" name="password" id="password" placeholder="Password">
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend> Personal Information </legend>
+				<label for="firstName">First name:</label>
+				<br>
+				<input type="text" name="firstName" id="firstName">
+				<br>
+				<label for="lastName">Last name:</label>
+				<br>
+				<input type="text" name="lastName" id="lastName">
+				<br>
+				<input type="radio" name="gender" id="genderMale" checked>
+				<label for="genderMale">Male</label>
+				<br>
+				<input type="radio" name="gender" id="genderFemale">
+				<label for="genderFemale">Female</label>
+				<br>
+				<label for="food"> Favorite Food </label>
+				<select>
+					<optgroup label="Favorite Food">
+						<option value="Chocolate"> Chocolate </option>
+						<option value="Pizza"> Pizza </option>
+						<option value="Sandwich"> Sandwich </option>
+						<option value="Kebab"> Kebab </option>
+					</optgroup>
+				</select>
+			</fieldset>
+			<br>
+			<input type="submit" id="submit" value="Register">
+			<input type="reset" id="reset" value="Reset">
+		</form>
+	</BODY>
+</HTML>
