@@ -12,7 +12,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 90%;
+	width: 80%; /* Actually is 90% but because of other modifications have to lower the current width */
 	max-width: 32rem;
 	padding: 2.5rem;
 	background-color: white;
@@ -36,7 +36,7 @@ body {
 }
 
 .input-field {
-	display:block; 
+	display: block; 
 	margin-top: 1rem;
 	padding-bottom: 1rem;
 	width: 98.5%;
@@ -67,6 +67,10 @@ body {
 	font-size: 15px;
 	color: white;
 	cursor: pointer;
+}
+
+.submit:focus {
+	outline: none;
 }
 
 .create-account {
